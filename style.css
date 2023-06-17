@@ -39,6 +39,10 @@ header{
     background-color: var(--bg-color);
     
 }
+#toggle-icon{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
 .logo{
     color: var(--main-color);
     font-weight: 600;
@@ -391,6 +395,9 @@ section{
     .home{
         flex-wrap: wrap;
     }
+    .home-img img{
+        width: 100%;
+    }
     .home-text{
         width: 100%;
         text-align: center;
@@ -418,7 +425,7 @@ section{
     .col{
         width: 100%;
         margin-bottom: 12px;
-        text-align: center;
+        text-align: left;
     }
 
 }
